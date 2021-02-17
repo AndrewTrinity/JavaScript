@@ -42,7 +42,10 @@ const arrayMapeadoV3 = array2.filter(function (el) {
 //num pares>10
 
 const arrayMapeadoV4 = array2.filter(el => el % 2 === 0 && el > 10)
-console.log(arrayMapeadoV4)
+// console.log(arrayMapeadoV4)
+
+const arrayMapeadoV5 = array2.filter(el => el % 3 !== 0 || el <= 13)
+console.log(arrayMapeadoV5)
 
 // map, filter, reduc
 
